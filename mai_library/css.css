@@ -1,0 +1,99 @@
+
+body{ 
+ 
+    background: rgb(107,186,222);
+    background: -moz-linear-gradient(90deg, rgba(107,186,222,1) 0%, rgba(232,156,205,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(107,186,222,1) 0%, rgba(232,156,205,1) 100%);
+    background: linear-gradient(90deg, rgba(107,186,222,1) 0%, rgba(232,156,205,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#f2f2f2",GradientType=1); 
+    margin-left:30%;
+    margin-right:30%;
+  
+}  
+.container { 
+  padding: 50px;  
+  background-color: #fafafa;  
+}  
+
+input[type=text], input[type=date],input[type=password] {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1; 
+
+  
+}  
+input[type=text]:focus, input[type=date]:focus, input[type=password]:focus{ 
+border-radius: 60px; 
+  background-color: ;  
+  outline: none;  
+  border: 2px solid #979EC7;
+  border-radius: 5px;
+
+}  
+div {  
+
+            padding: 10px 0;  
+ }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #979EC7;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {   
+  opacity: 1;  
+}  
+
+
+ .box111 {
+    position: absolute;
+    background-color: #f2f2f2;
+    width: 390px;
+    height: 470px;
+    left:70px;top:35px; position: relative;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color:#fff;
+    border: 1px solid
+    rgba(0,0,0,.125);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: 5.25rem;
+    border-bottom-left-radius: 5.25rem;
+    border-bottom-right-radius: .25rem;
+        }
+.button {
+    margin: 10px auto;
+    background-color: #C097C7;
+    width: 85px;
+    padding: 5px;
+    }
+    
+    h3 {
+            color: #fafafa
+    }
+        a {
+            text-decoration: none
+        }
+#outer
+{
+    width:100%;
+    text-align: center;
+    
+}
+.inner
+{
+    display: inline-block;
+    align-content: space-between;   
+}

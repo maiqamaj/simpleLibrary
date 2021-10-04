@@ -1,0 +1,97 @@
+
+    body{ 
+ 
+    background: rgb(107,186,222);
+    background: -moz-linear-gradient(90deg, rgba(107,186,222,1) 0%, rgba(232,156,205,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(107,186,222,1) 0%, rgba(232,156,205,1) 100%);
+    background: linear-gradient(90deg, rgba(107,186,222,1) 0%, rgba(232,156,205,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#f2f2f2",GradientType=1); 
+  
+}  
+.cont { 
+  padding: 50px;  
+  background-color: #fafafa;  
+    margin-left: 30%;
+    margin-right: 30%;
+}  
+
+input[type=text], input[type=date],input[type=password] {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1; 
+
+  
+}  
+input[type=text]:focus, input[type=date]:focus, input[type=password]:focus{ 
+border-radius: 60px; 
+  background-color: ;  
+  outline: none;  
+  border: 2px solid #979EC7;
+  border-radius: 5px;
+
+}  
+div {  
+
+            padding: 10px 0;  
+ }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #979EC7;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {   
+  opacity: 1;  
+}  
+
+
+    h3 {
+            color: #fafafa
+    }
+        a {
+            text-decoration: none
+        }
+
+
+
+
+table,th,td {
+
+border: 1px solid black;
+  border-collapse: collapse;
+
+
+}
+
+  th {
+   
+    padding:9px;
+ padding-left:50px;
+        }
+        td {
+    padding:9px;
+ padding-left:20px;
+  
+}
+               th {
+  background-color: #979EC7;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+        tr:nth-child(odd) {
+  background-color: #ffffff
+}
+td button{min-width: 8ch; min-height: 40px; background-color:#C097C7; color:#f2f2f2;font-size : 17px;
+						 border:0;	}
